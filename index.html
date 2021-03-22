@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Надежда Голикова</title>
+</head>
+<body>
+
+    <div class="header"><!-- ---------- Header ---------- -->
+        <div class="wrapper">
+
+            <div class="header_wrapper">
+
+                <div class="header_title">
+                    <h1>
+                        НАДЕЖДА ГОЛИКОВА
+                    </h1>
+                </div>
+    
+                <ul class="contacts_list">
+
+                    <li class="contacts_item">
+                        <a href="">
+                            <img class="contacts_icon" src="img/ellipse.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="contacts_item">
+                        <a href="">
+                            <img class="contacts_icon" src="img/ellipse.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="contacts_item">
+                        <a href="">
+                            <img class="contacts_icon" src="img/ellipse.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="contacts_item">
+                        <a href="" class="contacts_link">8 910 971-05-02</a>
+                    </li>
+                    <li class="contacts_item">
+                        <a href="">
+                            <img class="contacts_icon" src="img/ellipse.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="contacts_item">
+                        <a href="" class="contacts_link">hope.75@mail.ru</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="header_subtitle">
+                <h2>
+                    детский фотограф
+                </h2>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+    <nav class="nav"><!-- ---------- Nav ---------- -->
+        <div class="wrapper">
+
+            <ul class="nav_list">
+                <li class="nav_item">
+                    <a href="#about" class="nav_link">О себе</a>
+                </li>
+                <li class="nav_item">
+                    <a href="" class="nav_link">Услуги</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#portfolio" class="nav_link">Портфолио</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#reviews" class="nav_link">Отзывы</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#contacts" class="nav_link">Контакты</a>
+                </li>
+            </ul>
+
+        </div>        
+    </nav>
+
+
+
+    <div class="intro"><!-- ---------- Intro ---------- -->
+        <div class="wrapper">
+
+            <h2 class="intro_title">
+                СОХРАНЯЮ ДЕСТКИЕ ЭМОЦИИ
+            </h2>
+            <a href="mailto:example@mail.ru?subject=ТемаПисьма&body=ТелоПисьма" target="_blank" rel="noopener noreferrer" class="intro_button">
+                записаться на фотосессию
+            </a>
+
+            <div class="intro_cards">
+
+                <div class="intro_card"><!-- Card 1 -->
+                    
+                    <h2 class="intro_card_title_1">
+                        ОДИН ДЕНЬ В<br>
+                        ДЕТСКОМ САДУ
+                    </h2>
+
+                    <p class="intro_card_text_1">
+                        красочная фотокнига<br>
+                        одного дня вашего ребенка<br>
+                        в детском саду<br>
+                        3000 р.
+                    </p>
+
+                </div>
+
+                <div class="intro_card"><!-- Card 2 -->
+
+                    <h2 class="intro_card_title_2">
+                        ДЕТСКИЙ ПРАЗДНИК
+                    </h2>
+
+                    <p class="intro_card_text_2">
+                        фоторепортаж Вашего<br>
+                        мероприятия<br>
+                        2000 р /час
+                    </p>
+
+                </div>
+
+                <div class="intro_card"><!-- Card 3 -->
+
+                    <h2 class="intro_card_title_3">
+                        ИНДИВИДУАЛЬНЫЕ<br>
+                        ФОТОСЕССИИ
+                    </h2>
+
+                    <p class="intro_card_text_3">
+                        детские и семейные фотосессии<br>
+                        2000 р /час
+                    </p>
+
+                </div>                
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="about" id="about"><!-- ---------- About Me ---------- -->
+        <div class="about_wrapper">
+
+            <img src="img/about_me.svg" alt="" class="about_img">
+
+            <div class="about_body">
+
+                <h2 class="about_title">
+                    О себе
+                </h2>
+    
+                <p class="about_text">
+                    Меня зовут Надежда Голикова<br><br>
+                    Я детский фотограф 
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="request" id="request"><!-- ---------- Request ---------- -->
+        <div class="wrapper">
+
+            <div class="request_body">
+                
+                <h2 class="request_title">
+                    Записаться на фотосессию
+                </h2>
+
+                <h2 class="request_subtitle">
+                    Оставьте свой номер телефона и я Вам перезвоню
+                </h2>
+
+                <form class="request_form" action="index.php#request" method="post">
+                    <div class="form_body">
+                        <input type="text" name="name" class="form_field" placeholder="Ваше имя" required>
+                        <input type="tel" name="tel" class="form_field" placeholder="+7___-___-__-__" required>
+                        <button type="submit" class="form_button">Отправить*</button>
+                    </div>
+                </form>
+
+                <h2 class="request_info">
+                    *Нажимая эту кнопку Вы соглашаетесь с политикой конфиденциальности
+                </h2>
+
+                <!-- <?php
+                    if(!isset($_POST['name']) and !isset($_POST['tel'])) {
+                    ?>
+                        <form class="request_form" action="index.php#request" method="post">
+                            <div class="form_body">
+                                <input type="text" name="name" class="form_field" placeholder="Ваше имя" required>
+                                <input type="tel" name="tel" class="form_field" placeholder="+7___-___-__-__" required>
+                                <button type="submit" class="form_button">Отправить*</button>
+                            </div>
+                        </form>
+
+                        <h2 class="request_info">
+                            *Нажимая эту кнопку Вы соглашаетесь с политикой конфиденциальности
+                        </h2>
+                    <?php
+                    } else {
+                        $name = $_POST['name'];
+                        $tel = $_POST['tel'];
+
+                        $name = urldecode($name);
+                        $tel = urldecode($tel);
+
+                        if (mail("shabbalina@mail.ru", "Заявка с сайта", "Имя: ".$name."\n\nТелефон: ".$tel."\n")) {
+                            echo "<h2 style='color: green; margin-bottom: 20px;'>Сообщение успешно отправлено</h2>";
+                        } else {
+                            echo "<h2 style='color: red; margin-bottom: 20px;'>При отправке сообщения возникли проблемы</h2>";
+                        }
+                    }
+                ?> -->
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="portfolio" id="portfolio"><!-- ---------- Portfolio ---------- -->
+        <div class="wrapper">
+
+            <h2 class="portfolio_title">
+                ПОРТФОЛИО
+            </h2>
+
+            <div class="portfolio_cards">
+
+                <img src="img/portfolio.svg" alt="">
+                <img src="img/portfolio.svg" alt="">
+                <img src="img/portfolio.svg" alt="">
+                <img src="img/portfolio.svg" alt="">
+                <img src="img/portfolio.svg" alt="">
+                <img src="img/portfolio.svg" alt="">
+                <img src="img/portfolio.svg" alt="">
+                <img src="img/portfolio.svg" alt="">
+                <img src="img/portfolio.svg" alt="">
+                <img src="img/portfolio.svg" alt="">
+                <img src="img/portfolio.svg" alt="">
+                <img src="img/portfolio.svg" alt="">
+                <img src="img/portfolio.svg" alt="">
+                <img src="img/portfolio.svg" alt="">
+                <img src="img/portfolio.svg" alt="">
+                <img src="img/portfolio.svg" alt="">
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="reviews" id="reviews"><!-- ---------- Reviews ---------- -->
+        <div class="wrapper">
+
+            <h2 class="reviews_title">
+                ОТЗЫВЫ
+            </h2>
+
+            <div class="reviews_cards">
+
+                <img src="img/review.svg" alt="">
+                <img src="img/review.svg" alt="">
+                <img src="img/review.svg" alt="">
+                <img src="img/review.svg" alt="">
+
+            </div>
+
+            <a href="#" class="reviews_button">
+                Больше отзывов в Инстаграмм
+            </a>
+
+        </div>
+    </div>
+
+
+
+    <div class="footer" id="contacts"><!-- ---------- Footer ---------- -->
+        <div class="wrapper">
+
+            <div class="footer_wrapper">
+
+                <div class="footer_title">
+                    <h1>
+                        Надежда Голикова
+                    </h1>
+                </div>
+    
+                <ul class="contacts_list">
+
+                    <li class="contacts_item">
+                        <a href="#">
+                            <img class="contacts_icon" src="img/ellipse.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="contacts_item">
+                        <a href="#" class="contacts_link">
+                            8 910 971-05-02
+                        </a>
+                    </li>
+                    <li class="contacts_item">
+                        <a href="#">
+                            <img class="contacts_icon" src="img/ellipse.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="contacts_item">
+                        <a href="#" class="contacts_link">
+                            hope.75@mail.ru
+                        </a>
+                    </li>
+                    <li class="contacts_item">
+                        <a href="#">
+                            <img class="contacts_icon" src="img/ellipse.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="contacts_item">
+                        <a href="#">
+                            <img class="contacts_icon" src="img/ellipse.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="contacts_item">
+                        <a href="#">
+                            <img class="contacts_icon" src="img/ellipse.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+</html>
